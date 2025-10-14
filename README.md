@@ -249,13 +249,8 @@ topk(5, sum by (name)(rate(container_network_transmit_bytes_total{image!=""}[20s
 
 ## Referências
 
-**PT-BR**
 - AWS — *O que é o Amazon Managed Grafana?*  
   https://docs.aws.amazon.com/pt_br/grafana/latest/userguide/what-is-Amazon-Managed-Grafana.html
-- Google Cloud — *Grafana com Cloud Monitoring*  
-  https://cloud.google.com/monitoring/grafana?hl=pt-br
-
-**EN**
 - Grafana Docs — *Import dashboards*  
   https://grafana.com/docs/grafana/latest/dashboards/build-dashboards/import-dashboards/
 - Prometheus Docs — *Querying basics (PromQL)*  
